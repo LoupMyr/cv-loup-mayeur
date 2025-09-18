@@ -1,0 +1,18 @@
+    .cv-header {
+        .cv-picture {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: 0px 10%; 
+            border: 3px solid $primary;
+        }
+
+        .cv-title,
+        .cv-name {
+            font-weight: bold;
+        }
+
+        .cv-name {
+            font-size: 2.5rem;
+        }
+    }

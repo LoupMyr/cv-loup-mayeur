@@ -1,0 +1,44 @@
+// Variables de couleurs personnalisées
+$background: #b8b8b8;
+
+$primary: #989087;
+$secondary: #323232;
+
+$high-score: #80db12;
+$mid-score: #f2e205;
+$low-score: #ff4c4c;
+
+// Variables Bootstrap à personnaliser (doivent être définies AVANT l'import de Bootstrap)
+$body-bg: $background;
+$body-color: $secondary;
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+$border-color: lighten($secondary, 40%);
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.bg-white {
+  background-color: $background !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.border-primary {
+  border-color: $primary !important;
+}
+
+.border-secondary {
+  border-color: $secondary !important;
+}

@@ -1,0 +1,38 @@
+---
+layout: layouts/base.liquid
+---
+
+<div class="container bg-white">
+  <header class="row cv-header">
+    <div class="col">
+      <img
+        src="./../{{ cv.profile.picture}}"
+        alt="{{ cv.profile.name }}"
+        class="cv-picture rounded-circle">
+    </div>
+    <div class="cv-header-content">
+      <div class="cv-profile-info">
+        <h1 class="cv-name">{{ cv.profile.name }}</h1>
+        <h2 class="cv-title">{{ cv.profile.label }}</h2>
+        <div class="cv-contact">
+          <div class="contact-item">
+            <i class="bi bi-geo-alt"></i>
+            <span>{{ cv.profile.city }}, {{ cv.profile.postalCode }}</span>
+          </div>
+          <div class="contact-item">
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:{{ cv.profile.email }}">{{ cv.profile.email }}</a>
+          </div>
+          <div class="contact-item">
+            <i class="bi bi-telephone"></i>
+            <a href="tel:{{ cv.profile.phone }}">{{ cv.profile.phone }}</a>
+          </div>
+          <div class="contact-item">
+            <i class="bi bi-person"></i>
+            <span>{{ cv.profile.age }} ans</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>

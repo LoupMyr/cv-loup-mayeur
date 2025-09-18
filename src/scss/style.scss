@@ -1,0 +1,8 @@
+// Import des variables de couleurs AVANT Bootstrap
+@import "colors";
+
+// Import Bootstrap avec nos variables personnalisées
+@import "bootstrap/scss/bootstrap";
+
+// Import de nos styles personnalisés APRÈS Bootstrap
+@import "cv";

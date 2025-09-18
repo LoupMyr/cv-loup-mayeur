@@ -1,0 +1,19 @@
+{
+  "name": "cv-loup-mayeur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "npx @11ty/eleventy --output=dist",
+    "serve": "DEBUG=* npx @11ty/eleventy --output=dist --watch --serve --port=4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.92.1"
+  }
+}
