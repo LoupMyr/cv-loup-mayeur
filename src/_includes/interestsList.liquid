@@ -1,0 +1,13 @@
+{% for interest in cv.interests %}
+  <div class="interest-item mb-3">
+    <div class="interest-category mb-2">
+      <i class="bi bi-folder me-1"></i>
+      <span class="fw-bold">{{ interest.category }}</span>
+    </div>
+    <div class="interest-items">
+      {% for item in interest.items %}
+        <div class="tag mb-1">{{ item }}</div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

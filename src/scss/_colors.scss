@@ -1,19 +1,24 @@
-// Variables de couleurs personnalisées
-$background: #b8b8b8;
+// Variables de couleurs principales - Background et surfaces
+$background: #1a1a1a;
+$surface: #2d2d2d;
+$surface-light: #3a3a3a;
 
-$primary: #989087;
-$secondary: #323232;
+// Variables de couleurs principales - Textes
+$primary: #c5b8a8;
+$secondary: #e0e0e0;
+$accent: #8a7d73;
 
-$high-score: #80db12;
-$mid-score: #f2e205;
-$low-score: #ff4c4c;
+// Variables pour les scores de compétences
+$high-score: #7dd655;
+$mid-score: #f5e835;
+$low-score: #ff6b6b;
 
-// Variables Bootstrap à personnaliser (doivent être définies AVANT l'import de Bootstrap)
+// Variables Bootstrap personnalisés
 $body-bg: $background;
 $body-color: $secondary;
 $link-color: $primary;
-$link-hover-color: darken($primary, 10%);
-$border-color: lighten($secondary, 40%);
+$link-hover-color: lighten($primary, 15%);
+$border-color: $surface-light;
 
 .text-primary {
   color: $primary !important;
@@ -24,7 +29,7 @@ $border-color: lighten($secondary, 40%);
 }
 
 .bg-white {
-  background-color: $background !important;
+  background-color: $surface !important;  // Utilise surface au lieu de background pour les cartes
 }
 
 .bg-primary {
@@ -32,7 +37,7 @@ $border-color: lighten($secondary, 40%);
 }
 
 .bg-secondary {
-  background-color: $secondary !important;
+  background-color: $surface !important;
 }
 
 .border-primary {
@@ -40,5 +45,53 @@ $border-color: lighten($secondary, 40%);
 }
 
 .border-secondary {
-  border-color: $secondary !important;
+  border-color: $surface-light !important;
+}
+
+.tag {
+  background-color: $accent;
+  padding: 4px 8px;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 4px;
+  color: $secondary;              // Texte clair sur fond sombre
+  font-size: 0.8rem;
+}
+
+// Couleurs personnalisées pour les barres de progression
+.progress-bar.bg-success {
+  background-color: $high-score !important;
+}
+
+.progress-bar.bg-warning {
+  background-color: $mid-score !important;
+}
+
+.progress-bar.bg-danger {
+  background-color: $low-score !important;
+}
+
+.progress {
+  background-color: $surface-light !important;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  
+  &:hover {
+    color: lighten($primary, 15%);
+    text-decoration: underline;
+  }
+}
+
+.cv-main {
+  background-color: $background;
+}
+
+.cv-section-title {
+  color: $primary;
+  border-bottom: 2px solid $accent;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }

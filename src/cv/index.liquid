@@ -2,22 +2,28 @@
 layout: layouts/base.liquid
 ---
 
-<div class="container bg-white">
+<div class="container pt-5">
   <header class="row cv-header">
-    <div class="col">
+    <div class="col-md-4">
       <img
         src="./../{{ cv.profile.picture}}"
         alt="{{ cv.profile.name }}"
         class="cv-picture rounded-circle">
     </div>
-    <div class="cv-header-content">
-      <div class="cv-profile-info">
-        <h1 class="cv-name">{{ cv.profile.name }}</h1>
-        <h2 class="cv-title">{{ cv.profile.label }}</h2>
-        <div class="cv-contact">
+    <div class="cv-header-content col container d-flex flex-column gap-3">
+      <div class="row">
+        <div class="cv-profile-info col">
+          <h1 class="cv-name">{{ cv.profile.name }}</h1>
+          <h2 class="cv-title">{{ cv.profile.label }}</h2>
+        </div>
+        <div class="cv-contact col">
           <div class="contact-item">
             <i class="bi bi-geo-alt"></i>
             <span>{{ cv.profile.city }}, {{ cv.profile.postalCode }}</span>
+          </div>
+          <div class="contact-item">
+            <i class="bi bi-person"></i>
+            <span>{{ cv.profile.age }} ans</span>
           </div>
           <div class="contact-item">
             <i class="bi bi-envelope"></i>
@@ -25,14 +31,67 @@ layout: layouts/base.liquid
           </div>
           <div class="contact-item">
             <i class="bi bi-telephone"></i>
-            <a href="tel:{{ cv.profile.phone }}">{{ cv.profile.phone }}</a>
-          </div>
-          <div class="contact-item">
-            <i class="bi bi-person"></i>
-            <span>{{ cv.profile.age }} ans</span>
+            <span>{{ cv.profile.phone }}</span>
           </div>
         </div>
+      </div>
+      <div class="row">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur adipisci delectus, officiis sequi, maxime accusantium exercitationem libero rerum maiores, porro dolorum laborum sint. Commodi veritatis in veniam ducimus cum.</p>
       </div>
     </div>
   </header>
 </div>
+
+<main class="cv-main">
+  <div class="container">
+    <div class="row">
+      {% comment %} Colonne de gauche: Languages / Interests {% endcomment %}
+      <div class="col-md-5 col-lg-4 cv-main-left">
+
+        <section class="language">
+          <div class="language-title">
+            <h3 class="cv-section-title">Langues</h3>
+          </div>
+          {% include 'languagesList' %}
+        </section>
+
+        <section class="softskills-interests mt-4">
+          <div class="softskills-interests-title">
+            <h3 class="cv-section-title">Softskills & Centres d'intérêt</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-12 mb-3">
+              <h4 class="h6 text-primary mb-2">Softskills</h4>
+              {% include 'softskillsList' %}
+            </div>
+            <div class="col-lg-6 col-12 mb-3">
+              <h4 class="h6 text-primary mb-2">Centres d'intérêt</h4>
+              {% include 'interestsList' %}
+            </div>
+          </div>
+        </section>
+      </div>
+
+      {% comment %} Colonne de droite: Compétences {% endcomment %}
+      <div class="col cv-main-right d-flex">
+        <section class="skill">
+          <div class="skill-title">
+            <h3 class="cv-section-title">Compétences</h3>
+          </div>
+          {% include 'skillsList' %}
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="cv-main-center">
+    <div class="container d-flex justify-content-center">
+      <section class="work d-flex flex-column gap-3">
+        <div class="work-title">
+          <h3 class="cv-section-title">Expériences professionnelles</h3>
+        </div>
+        {% include 'worksList' %}
+      </section>
+    </div>
+  </div>
+</main>

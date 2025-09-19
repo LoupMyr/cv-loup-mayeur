@@ -45,6 +45,11 @@ module.exports = function(eleventyConfig) {
     "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js": "js/bootstrap.bundle.min.js"
   });
 
+  // Copy Bootstrap Icons fonts
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/bootstrap-icons/font/fonts": "scss/fonts"
+  });
+
   return {
     templateFormats: ['html', 'liquid', 'md', 'scss'],
     dir: {

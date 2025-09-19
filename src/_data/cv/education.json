@@ -1,0 +1,50 @@
+[
+    {
+      "institution": "Ecole d’ingénierie informatique EPSI, Arras",
+      "url": "https://www.epsi.fr/",
+      "label": "Expert Informatique et Système d’information",
+      "studyType": "Mastère",
+      "startDate": "2024-09-01",
+      "endDate": "2026-09-01"
+    },
+    {
+      "institution": "Ecole d’ingénierie informatique EPSI, Arras",
+      "url": "https://www.epsi.fr/",
+      "label": "DevOps",
+      "studyType": "Bachelor",
+      "startDate": "2023-09-01",
+      "endDate": "2024-06-01"
+    },
+    {
+      "institution": "Lycée Guy Mollet, Arras",
+      "url": "https://lyceeguymollet.fr/",
+      "label": "Mathématiques approfondies UF2",
+      "studyType": "Certification",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01"
+    },
+    {
+      "institution": "Lycée Guy Mollet, Arras",
+      "url": "https://lyceeguymollet.fr/",
+      "label": "SIO",
+      "studyType": "BTS",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01",
+      "options": [
+        "Option SLAM - Solutions Logicielles et Applications Métiers"
+      ]
+    },
+    {
+      "institution": "Lycée Guy Mollet, Arras",
+      "url": "https://lyceeguymollet.fr/",
+      "label": "Général",
+      "studyType": "Baccalauréat",
+      "startDate": "2018-09-01",
+      "endDate": "2021-06-01",
+      "score": "Mention Assez bien",
+      "options": [
+        "Mathématiques",
+        "Numérique et Sciences Informatiques"
+      ]
+    }
+]

@@ -1,17 +1,17 @@
 [
   {
-    "name": "Echecs"
+    "category": "Sports",
+    "items": [
+      "Full Contact",
+      "Echecs",
+      "Musculation"
+    ]
   },
   {
-    "name": "Full Contact"
-  },
-  {
-    "name": "Jeux vidéo"
-  },
-  {
-    "name": "Escalade"
-  },
-  {
-    "name": "Musculation"
+    "category": "Activités",
+    "items": [
+      "Echecs",
+      "Jeux vidéo"
+    ]
   }
 ]

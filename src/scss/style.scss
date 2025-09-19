@@ -4,5 +4,10 @@
 // Import Bootstrap avec nos variables personnalisées
 @import "bootstrap/scss/bootstrap";
 
+// Import Bootstrap Icons
+@import "bootstrap-icons/font/bootstrap-icons";
+
 // Import de nos styles personnalisés APRÈS Bootstrap
-@import "cv";
+@import "cv/profile";
+@import "cv/languages";
+@import "cv/skills";

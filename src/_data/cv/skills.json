@@ -1,57 +1,94 @@
 [
   {
-    "category": "Frontend",
-    "items": [
-      {
-        "name": "HTML/CSS",
-        "level": 90
-      },
-      {
-        "name": "JavaScript",
-        "level": 85
-      },
-      {
-        "name": "React",
-        "level": 80
-      },
-      {
-        "name": "Vue.js",
-        "level": 75
-      }
-    ]
-  },
-  {
-    "category": "Backend",
-    "items": [
-      {
-        "name": "Node.js",
-        "level": 80
-      },
-      {
-        "name": "PHP",
-        "level": 85
-      },
-      {
-        "name": "Python",
-        "level": 70
-      }
-    ]
-  },
-  {
-    "category": "Outils",
-    "items": [
-      {
-        "name": "Git",
-        "level": 85
-      },
-      {
-        "name": "Docker",
-        "level": 70
-      },
-      {
-        "name": "VS Code",
-        "level": 95
-      }
-    ]
-  }
-]
+      "name": "Backend",
+      "level": "Avancé",
+      "score": "90",
+      "items": [
+        "PHP",
+        "Python",
+        "Java",
+        "Node.js",
+        "Spring Boot",
+        "Express.js",
+        "Symfony"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Avancé",
+      "score": "90",
+      "items": [
+        "HTML",
+        "CSS / SCSS",
+        "Dart / Flutter",
+        "Angular",
+        "Javascript",
+        "Bootstrap",
+        "Eleventy",
+        "Liquid"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Avancé",
+      "score": "90",
+      "items": [
+        "SQL",
+        "PostgreSQL",
+        "MariaDB",
+        "Event Store"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Intermédiaire",
+      "score": "70",
+      "items": [
+        "Docker",
+        "Git",
+        "Pipeline CI/CD",
+        "Monitoring Grafana"
+      ]
+    },
+    {
+      "name": "Software Design Architecture",
+      "level": "Intermédiaire",
+      "score": "70",
+      "items": [
+        "DDD - Domain Driven Design",
+        "CQRS",
+        "Event Sourcing",
+        "Clean Architecture"
+      ]
+    },
+    {
+      "name" : "Documentation et Communication",
+      "level": "Avancé",
+      "score": "85",
+      "items": [
+        "Markdown",
+        "GitHub",
+        "Notion",
+        "Teams"
+      ]
+    },
+    {
+      "name" : "AI",
+      "level": "Junior",
+      "score": "50",
+      "items": [
+        "RAG",
+        "MCP"
+      ]
+    },
+    {
+      "name": "API Design",
+      "level": "Avancé",
+      "score": "90",
+      "items": [
+        "OpenAPI",
+        "API REST"
+      ]
+    }
+  ]
+  

@@ -1,0 +1,16 @@
+{% for language in cv.languages %}
+  <div class="language-item mb-3">
+    <div class="mb-2">
+      <div class="mb-1">
+        <span class="fw-bold fs-5">{{ language.name }}</span>
+      </div>
+      <div class="tag">
+        <span class="language-level">{{ language.level }}</span>
+      </div>
+    </div>
+    <div class="language-progress-bar">
+      {% render 'progressBar'
+        , score: language.score %}
+    </div>
+  </div>
+{% endfor %}
