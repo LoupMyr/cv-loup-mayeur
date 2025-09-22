@@ -1,0 +1,21 @@
+{% for education in cv.education %}
+<div class="education-item">
+    <div class="education-header d-flex justify-content-between align-items-center mb-2">
+        <div class="d-flex align-items-baseline">
+            <h4 class="education-studyType mb-0 fs-4">{{education.studyType}} {{ education.label }}<span
+                    class="education-institution fs-6">, {{ education.institution }}</span>
+            </h4>
+        </div>
+        <div class="education-dates text-end">{{ education.startDate | date: "%b %Y" }} -
+            {% if education.endDate %}
+            {{ education.endDate | date: "%b %Y" }}
+            {% else %}
+            Présent
+            {% endif %}
+        </div>
+    </div>
+    {% comment %} <div class="education-details">
+        <p class="education-summary mb-2">{{ education.summary }}</p>
+    </div> {% endcomment %}
+</div>
+{% endfor %}

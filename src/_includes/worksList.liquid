@@ -1,32 +1,32 @@
 {% for work in cv.works %}
-  <div class="work-item">
-    <div class="work-header d-flex justify-content-between align-items-center mb-2">
-      <div class="d-flex align-items-baseline">
-        <h4 class="work-position mb-0">{{ work.position }}</h4>
-        <span class="fs-xs">, {{ work.préfixeCompany }} {{ work.company }}</span>
-      </div>
-      <div class="work-dates text-end">{{ work.startDate | date: "%b %Y" }} -
-        {% if work.endDate %}
-          {{ work.endDate | date: "%b %Y" }}
-        {% else %}
-          Présent
-        {% endif %}
-      </div>
+<div class="work-item">
+  <div class="work-header d-flex justify-content-between align-items-center mb-2">
+    <div class="d-flex align-items-baseline">
+      <h4 class="work-position mb-0 fs-4">{{ work.position }}<span class="company-name fs-6">, {{ work.préfixeCompany }}
+          {{ work.company }}</span></h4>
     </div>
-    <div class="work-projects d-flex flex-column gap-2">
-      {% for project in work.projects %}
-        <div class="project">
-          {% if project.url %}
-            <a href="{{ project.url }}" class="project-link">
-              <span class="text-primary mb-1">{{ project.name }}</span>
-            </a>
-          {% else %}
-            <span class="text-primary fs-6 mb-1">{{ project.name }}</span>
-          {% endif %}
-
-          <p class="project-summary mb-2">{{ project.description }}</p>
-        </div>
-      {% endfor %}
+    <div class="work-dates text-end">{{ work.startDate | date: "%b %Y" }} -
+      {% if work.endDate %}
+      {{ work.endDate | date: "%b %Y" }}
+      {% else %}
+      Présent
+      {% endif %}
     </div>
   </div>
+  <div class="work-projects d-flex flex-column gap-3">
+    {% for project in work.projects %}
+    <div class="project">
+      {% if project.url %}
+      <a href="{{ project.url }}" class="project-link" target="_blank">
+        <span class="text-primary mb-1">{{ project.name }}</span>
+      </a>
+      {% else %}
+      <span class="text-primary fs-6 mb-1">{{ project.name }}</span>
+      {% endif %}
+
+      <p class="project-summary mb-2">{{ project.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
 {% endfor %}

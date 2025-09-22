@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "generate": "npx @11ty/eleventy --output=dist",
-    "serve": "DEBUG=* npx @11ty/eleventy --output=dist --watch --serve --port=4000"
+    "serve": "npx @11ty/eleventy --output=dist --watch --serve --port=4000"
   },
   "keywords": [],
   "author": "",

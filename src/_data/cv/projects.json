@@ -1,54 +1,52 @@
-{
-    "projects": [
-        {
-            "name": "Application web vitrine Metarisc",
-            "nature": "Professionnel",
-            "description": "Développement d'un site web vitrine pour Metarisc, une entreprise spécialisée dans la gestion des risques.",
-            "technologies": [
-                "HTML",
-                "Liquid",
-                "JavaScript",
-                "Sass",
-                "Eleventy",
-                "Bootstrap"
-            ]
-        },
-        {
-            "name": "Application web de documentation Metarisc",
-            "nature": "Professionnel",
-            "description": "Développement d'une application web pour la documentation de Metarisc.",
-            "technologies": [
-                "HTML",
-                "Liquid",
-                "JavaScript",
-                "Sass",
-                "Eleventy",
-                "Bootstrap"
-            ]
-        },
-        {
-            "name": "Portfolio",
-            "nature": "Personnel",
-            "description": "Développement d'un portfolio en ligne pour présenter mes compétences et projets.",
-            "technologies": [
-                "HTML",
-                "Liquid",
-                "JavaScript",
-                "Sass",
-                "Eleventy",
-                "Bootstrap"
-            ]
-        },
-        {
-            "name": "BankManager",
-            "nature": "Personnel",
-            "description": "Création d'une application mobile de gestion de comptes bancaires.",
-            "technologies": [
-                "Dart",
-                "Flutter",
-                "PHP",
-                "Symfony"
-            ]
-        }
-    ]
-}
+[
+    {
+        "name": "Application web vitrine Metarisc",
+        "nature": "Professionnel",
+        "description": "Développement d'un site web vitrine pour Metarisc, une entreprise spécialisée dans la gestion des risques.",
+        "technologies": [
+            "HTML",
+            "Liquid",
+            "JavaScript",
+            "Sass",
+            "Eleventy",
+            "Bootstrap"
+        ]
+    },
+    {
+        "name": "Application web de documentation Metarisc",
+        "nature": "Professionnel",
+        "description": "Développement d'une application web pour la documentation de Metarisc.",
+        "technologies": [
+            "HTML",
+            "Liquid",
+            "JavaScript",
+            "Sass",
+            "Eleventy",
+            "Bootstrap"
+        ]
+    },
+    {
+        "name": "Portfolio",
+        "nature": "Personnel",
+        "description": "Développement d'un portfolio en ligne pour présenter mes compétences et projets.",
+        "technologies": [
+            "HTML",
+            "Liquid",
+            "JavaScript",
+            "Sass",
+            "Eleventy",
+            "Bootstrap"
+        ]
+    },
+    {
+        "name": "BankManager",
+        "nature": "Personnel",
+        "description": "Création d'une application mobile de gestion de comptes bancaires.",
+        "technologies": [
+            "Dart",
+            "Flutter",
+            "PHP",
+            "Symfony"
+        ]
+    }
+]

@@ -2,13 +2,10 @@
 layout: layouts/base.liquid
 ---
 
-<div class="container pt-5">
+<div class="container">
   <header class="row cv-header">
     <div class="col-md-4">
-      <img
-        src="./../{{ cv.profile.picture}}"
-        alt="{{ cv.profile.name }}"
-        class="cv-picture rounded-circle">
+      <img src="./../{{ cv.profile.picture}}" alt="{{ cv.profile.name }}" class="cv-picture rounded-circle">
     </div>
     <div class="cv-header-content col container d-flex flex-column gap-3">
       <div class="row">
@@ -36,7 +33,9 @@ layout: layouts/base.liquid
         </div>
       </div>
       <div class="row">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur adipisci delectus, officiis sequi, maxime accusantium exercitationem libero rerum maiores, porro dolorum laborum sint. Commodi veritatis in veniam ducimus cum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur adipisci delectus, officiis sequi,
+          maxime accusantium exercitationem libero rerum maiores, porro dolorum laborum sint. Commodi veritatis in
+          veniam ducimus cum.</p>
       </div>
     </div>
   </header>
@@ -85,13 +84,34 @@ layout: layouts/base.liquid
   </div>
 
   <div class="cv-main-center">
-    <div class="container d-flex justify-content-center">
-      <section class="work d-flex flex-column gap-3">
+    <div class="container d-flex justify-content-center flex-column gap-5">
+      <section class="work">
         <div class="work-title">
           <h3 class="cv-section-title">Expériences professionnelles</h3>
         </div>
-        {% include 'worksList' %}
+        <div class="d-flex flex-column gap-4">
+          {% include 'worksList' %}
+        </div>
       </section>
+
+      <section class="education">
+        <div class="education-title">
+          <h3 class="cv-section-title">Formation</h3>
+        </div>
+        <div class="d-flex flex-column gap-4">
+          {% include 'educationList' %}
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="projects-title">
+          <h3 class="cv-section-title">Projets personnels</h3>
+        </div>
+        <div class="d-flex flex-column gap-4">
+          {% include 'projectsList' %}
+        </div>
+      </section>
+      
     </div>
   </div>
 </main>
