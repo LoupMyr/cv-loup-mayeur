@@ -5,7 +5,10 @@ layout: layouts/base.liquid
 <div class="container">
   <header class="row cv-header">
     <div class="col-md-4">
-      <img src="./../{{ cv.profile.picture}}" alt="{{ cv.profile.name }}" class="cv-picture rounded-circle">
+      <img
+        src="./../{{ cv.profile.picture}}"
+        alt="{{ cv.profile.name }}"
+        class="cv-picture rounded-circle">
     </div>
     <div class="cv-header-content col container d-flex flex-column gap-3">
       <div class="row">
@@ -33,9 +36,7 @@ layout: layouts/base.liquid
         </div>
       </div>
       <div class="row">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad pariatur adipisci delectus, officiis sequi,
-          maxime accusantium exercitationem libero rerum maiores, porro dolorum laborum sint. Commodi veritatis in
-          veniam ducimus cum.</p>
+        <p>Développeur fullstack passionné par la création d'applications complètes et innovantes, je maîtrise l'ensemble de la chaîne de développement, du backend au frontend. Actuellement en formation d'Expert Informatique et Système d’information, j'allie formation théorique et expérience pratique acquise au SDIS 62, où je conçois des solutions sur mesure allant de l'intelligence artificielle aux outils de gestion de données. Ma polyvalence technique et ma capacité d'adaptation me permettent de m'investir efficacement dans des projets variés.</p>
       </div>
     </div>
   </header>
@@ -105,13 +106,13 @@ layout: layouts/base.liquid
 
       <section class="projects">
         <div class="projects-title">
-          <h3 class="cv-section-title">Projets personnels</h3>
+          <h3 class="cv-section-title">Projets</h3>
         </div>
         <div class="d-flex flex-column gap-4">
           {% include 'projectsList' %}
         </div>
       </section>
-      
+
     </div>
   </div>
 </main>

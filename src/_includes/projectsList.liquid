@@ -1,19 +1,22 @@
 {% for project in cv.projects %}
-<div class="project-item mb-4">
+  <div class="project-item mb-4">
     {% if project.url %}
-    <a href="{{ project.url }}" class="project-link" target="_blank">
+      <a
+        href="{{ project.url }}"
+        class="project-link"
+        target="_blank">
         <h4 class="project-name mb-1 fs-4">{{ project.name }}</h4>
-        <h5 class="project-nature">Projet {{ project.nature }}</h5>
-    </a>
+      </a>
     {% else %}
-    <h4 class="project-name mb-1 fs-4">{{ project.name }}</h4>
+      <h4 class="project-name mb-1 fs-4 text-primary">{{ project.name }}</h4>
     {% endif %}
+    <h5 class="project-nature fs-6">Projet {{ project.nature }}</h5>
 
     <p class="project-summary mb-2">{{ project.description }}</p>
     <div class="my-2">
-        {% for item in project.technologies %}
+      {% for item in project.technologies %}
         <div class="tag">{{ item }}</div>
-        {% endfor %}
+      {% endfor %}
     </div>
-</div>
+  </div>
 {% endfor %}

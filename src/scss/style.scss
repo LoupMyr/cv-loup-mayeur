@@ -13,7 +13,12 @@
 @import "cv/skills";
 @import "cv/works";
 
-body {
+// Import des composants
+@import "index/presentation";
+
+// Marges spécifiques pour les pages CV
+.cv-main,
+.cv-header {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }

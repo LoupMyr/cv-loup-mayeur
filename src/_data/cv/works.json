@@ -6,22 +6,7 @@
         "position": "Alternant développeur Fullstack",
         "url": "https://www.sdis62.fr/",
         "startDate": "2024-09-01",
-        "endDate": "2026-09-01",
-        "projects": [
-            {
-                "name": "API Metarisc",
-                "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL.",
-                "url": "https://dev.app.metarisc.fr/"
-            },
-            {
-                "name": "SireneAI - RAG MistralAI Legifrance",
-                "description": "Création d'un RAG en Python avec Langchain et Supabase dans le but d'améliorer la pertinence des réponses de MistralAI au sujet de la prévention incendie."
-            },
-            {
-                "name": "Outil de reprise de données Metarisc",
-                "description": "Conception et création d'un outil de reprise de données d'un logiciel vers Metarisc en PHP, avec MariaDB et SQLite. Animation de réunions et de formations au sujet de cet outil avec le Bataillon de marins-pompiers de Marseille."
-            }
-        ]
+        "summary": "Durant ma formation d'Expert Informatique et Système d’information"
     },
     {
         "company": "Service Départemental d'Incendie et de Secours",
@@ -31,23 +16,7 @@
         "url": "https://www.sdis62.fr/",
         "startDate": "2023-09-01",
         "endDate": "2024-09-01",
-        "projects": [
-            {
-                "name": "API Metarisc",
-                "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL.",
-                "url": "https://dev.app.metarisc.fr/"
-            },
-            {
-                "name": "Site vitrine Metarisc",
-                "description": "Réalisation d'un site vitrine pour Metarisc avec Eleventy avec la possibilité de rédiger des posts en Markdown pour que tout le monde puisse contribuer.",
-                "url": "https://metarisc.fr/"
-            },
-            {
-                "name": "Site documentation Metarisc",
-                "description": "Réalisation d'un site de documentation Metarisc avec Eleventy. Pages de documentation en Markdown pour que leur rédaction soit accessible à tous.",
-                "url": "https://docs.metarisc.fr/"
-            }
-        ]
+        "summary": "Durant ma formation DevOps"
     },
     {
         "company": "Mairie d'Achicourt",
@@ -57,12 +26,7 @@
         "url": "https://achicourt.fr/",
         "startDate": "2023-01-01",
         "endDate": "2023-02-10",
-        "projects": [
-            {
-                "name": "Application de gestion de stocks",
-                "description": "Réalisation d'une application de gestion de stock informatique pour Windows avec Flutter et d'une API avec Symfony, MariaDB et API Platform."
-            }
-        ]
+        "summary": "Pendant ma 2ème année de BTS SIO"
     },
     {
         "company": "Service Départemental d'Incendie et de Secours",
@@ -72,11 +36,6 @@
         "url": "https://www.sdis62.fr/",
         "startDate": "2022-06-01",
         "endDate": "2022-07-01",
-        "projects": [
-            {
-                "name": "Application de gestion de stocks",
-                "description": "Réalisation d'une application de gestion de stock informatique pour Windows avec Flutter et d'une API avec Symfony, MariaDB et API Platform."
-            }
-        ]
+        "summary": "Pendant ma 1ère année de BTS SIO"
     }
 ]

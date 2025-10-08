@@ -1,8 +1,44 @@
 [
     {
-        "name": "Application web vitrine Metarisc",
+        "name": "SireneAI - RAG MistralAI Legifrance",
         "nature": "Professionnel",
-        "description": "Développement d'un site web vitrine pour Metarisc, une entreprise spécialisée dans la gestion des risques.",
+        "description": "Création d'un RAG en Python avec Langchain et Supabase dans le but d'améliorer la pertinence des réponses de MistralAI au sujet de la prévention incendie.",
+        "technologies": [
+            "Python",
+            "Langchain",
+            "Supabase",
+            "MistralAI"
+        ]
+    },
+    {
+        "name": "Outil de reprise de données Metarisc",
+        "nature": "Professionnel",
+        "description": "Conception et création d'un outil de reprise de données d'un logiciel vers Metarisc en PHP, avec MariaDB et SQLite. Animation de réunions et de formations au sujet de cet outil avec le Bataillon de marins-pompiers de Marseille.",
+        "technologies": [
+            "PHP",
+            "MariaDB",
+            "Doctrine",
+            "SQLite"
+        ]
+    },
+    {
+        "name": "API Metarisc",
+        "nature": "Professionnel",
+        "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL.",
+        "url": "https://dev.app.metarisc.fr/",
+        "technologies": [
+            "PHP",
+            "Doctrine",
+            "PostgreSQL",
+            "OpenAPI",
+            "WFS"
+        ]
+    },
+    {
+        "name": "Site vitrine Metarisc",
+        "nature": "Professionnel",
+        "description": "Réalisation d'un site vitrine pour Metarisc avec Eleventy avec la possibilité de rédiger des posts en Markdown pour que tout le monde puisse contribuer.",
+        "url": "https://metarisc.fr/",
         "technologies": [
             "HTML",
             "Liquid",
@@ -13,9 +49,10 @@
         ]
     },
     {
-        "name": "Application web de documentation Metarisc",
+        "name": "Site documentation Metarisc",
         "nature": "Professionnel",
-        "description": "Développement d'une application web pour la documentation de Metarisc.",
+        "description": "Réalisation d'un site de documentation Metarisc avec Eleventy. Pages de documentation en Markdown pour que leur rédaction soit accessible à tous.",
+        "url": "https://docs.metarisc.fr/",
         "technologies": [
             "HTML",
             "Liquid",
@@ -26,16 +63,16 @@
         ]
     },
     {
-        "name": "Portfolio",
-        "nature": "Personnel",
-        "description": "Développement d'un portfolio en ligne pour présenter mes compétences et projets.",
+        "name": "Application de gestion de stocks",
+        "nature": "Professionnel",
+        "description": "Réalisation d'une application de gestion de stock informatique pour Windows avec Flutter et d'une API avec Symfony, MariaDB et API Platform.",
         "technologies": [
-            "HTML",
-            "Liquid",
-            "JavaScript",
-            "Sass",
-            "Eleventy",
-            "Bootstrap"
+            "Dart",
+            "Flutter",
+            "PHP",
+            "Symfony",
+            "MariaDB",
+            "API Platform"
         ]
     },
     {
@@ -46,7 +83,9 @@
             "Dart",
             "Flutter",
             "PHP",
-            "Symfony"
+            "Symfony",
+            "MariaDB",
+            "API Platform"
         ]
     }
 ]
