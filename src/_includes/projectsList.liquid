@@ -1,12 +1,12 @@
 {% for project in cv.projects %}
   <div class="project-item mb-4">
     {% if project.url %}
-      <a
-        href="{{ project.url }}"
-        class="project-link"
-        target="_blank">
-        <h4 class="project-name mb-1 fs-4">{{ project.name }}</h4>
-      </a>
+      <h4 class="project-name mb-1 fs-4">
+        <a
+          href="{{ project.url }}"
+          class="project-link"
+          target="_blank">{{ project.name }}</a>
+      </h4>
     {% else %}
       <h4 class="project-name mb-1 fs-4 text-primary">{{ project.name }}</h4>
     {% endif %}
