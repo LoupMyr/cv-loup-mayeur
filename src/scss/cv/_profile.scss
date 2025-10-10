@@ -1,7 +1,7 @@
     .cv-header {
         .cv-picture {
-            width: 200px !important;
-            height: 200px !important;
+            width: 250px !important;
+            height: 250px !important;
             object-fit: cover;
             object-position: 0px 10%; 
             border: 3px solid $primary;
@@ -14,5 +14,10 @@
 
         .cv-name {
             font-size: 2.5rem;
+        }
+        .cv-contact {
+            .contact-item.socials {
+                font-size: 1.5rem;
+            }
         }
     }

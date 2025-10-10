@@ -4,7 +4,7 @@ layout: layouts/base.liquid
 
 <div class="container">
   <header class="row cv-header">
-    <div class="col-md-4">
+    <div class="col-md-4 d-flex justify-content-center align-items-center mb-4 mb-md-0">
       <img
         src="./../{{ cv.profile.picture}}"
         alt="{{ cv.profile.name }}"
@@ -33,10 +33,18 @@ layout: layouts/base.liquid
             <i class="bi bi-telephone"></i>
             <span>{{ cv.profile.phone }}</span>
           </div>
+          <div class="contact-item socials d-flex gap-3">
+            <a target="_blank" href="{{ cv.profile.linkedin }}">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a target="_blank" href="{{ cv.profile.github }}">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
         </div>
       </div>
       <div class="row">
-        <p>Développeur fullstack passionné par la création d'applications complètes et innovantes, je maîtrise l'ensemble de la chaîne de développement, du backend au frontend. Actuellement en formation d'Expert Informatique et Système d’information, j'allie formation théorique et expérience pratique acquise au SDIS 62, où je conçois des solutions sur mesure allant de l'intelligence artificielle aux outils de gestion de données. Ma polyvalence technique et ma capacité d'adaptation me permettent de m'investir efficacement dans des projets variés.</p>
+        <p>{{ cv.profile.summary }}</p>
       </div>
     </div>
   </header>
