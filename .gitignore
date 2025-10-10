@@ -1,3 +1,4 @@
 dist
+_site
 package-lock.json
 node_modules
