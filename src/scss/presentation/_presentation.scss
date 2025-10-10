@@ -1,5 +1,6 @@
-// Presentation Section - Custom styles (Bootstrap compliant)
-
+h1.title {
+  font-size: 3.5rem !important;
+}
 // Background gradient personnalisé
 .presentation-bg {
   background: linear-gradient(135deg, $background 0%, darken($background, 5%) 100%);
@@ -84,31 +85,31 @@
   &:nth-child(1) {
     top: 20%;
     left: 10%;
-    animation: float 6s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
   }
   
   &:nth-child(2) {
     top: 60%;
     right: 15%;
-    animation: float 8s ease-in-out infinite reverse;
+    animation: float 5s ease-in-out infinite reverse;
   }
   
   &:nth-child(3) {
     bottom: 30%;
     left: 20%;
-    animation: float 7s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
   }
   
   &:nth-child(4) {
     top: 40%;
     right: 30%;
-    animation: float 5s ease-in-out infinite reverse;
+    animation: float 3s ease-in-out infinite reverse;
   }
   
   &:nth-child(5) {
     bottom: 20%;
     right: 10%;
-    animation: float 9s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
   }
 }
 
