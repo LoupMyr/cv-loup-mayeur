@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/cv-loup-mayeur/",
     "generate": "npx @11ty/eleventy --output=dist",
     "serve": "npx @11ty/eleventy --output=dist --watch --serve --port=4000"
   },
