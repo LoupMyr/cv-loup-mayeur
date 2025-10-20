@@ -1,7 +1,7 @@
 {
     "name": "Loup Mayeur",
     "picture": "assets/images/photo-cv.jpeg",
-    "age": 22,
+    "birth_date": "06/07/2003",
     "city": "Ablainzevelle",
     "postalCode": "62116",
     "phone": "07 82 80 35 08",
