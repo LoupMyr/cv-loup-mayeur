@@ -24,7 +24,7 @@
     {
         "name": "API Metarisc",
         "nature": "Professionnel",
-        "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL.",
+        "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL. Metarisc est une application SASS destinée à la prévention chez les pompiers",
         "url": "https://dev.app.metarisc.fr/",
         "technologies": [
             "PHP",
