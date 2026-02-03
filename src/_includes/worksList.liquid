@@ -2,11 +2,11 @@
   <div class="work-item">
     <div class="work-header d-flex justify-content-between align-items-center mb-2">
       <div class="d-flex align-items-baseline">
-        <h4 class="work-position mb-0 fs-4">{{ work.position }}<span class="company-name fs-6">, {{ work.préfixeCompany }}
+        <h4 class="work-position mb-0 fs-4">{{ work.position }}<span class="company-name fs-6 text-light">, {{ work.préfixeCompany }}
             {{ work.company }}</span>
         </h4>
       </div>
-      <div class="work-dates text-end">{{ work.startDate | date: "%b %Y" }} -
+      <div class="dates text-end text-light">{{ work.startDate | date: "%b %Y" }} -
         {% if work.endDate %}
           {{ work.endDate | date: "%b %Y" }}
         {% else %}
@@ -15,7 +15,12 @@
       </div>
     </div>
     <div>
-      <p class="work-summary text-secondary fs-6">{{ work.summary }}</p>
+      <p class="work-summary text-light fst-italic">{{ work.summary }}</p>
+      <div class="ms-3">
+        {% for elt in work.description %}
+          <p class="work-description text-light">- {{ elt }}</p>
+        {% endfor %}
+      </div>
     </div>
   </div>
 {% endfor %}

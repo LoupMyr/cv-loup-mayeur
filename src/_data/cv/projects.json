@@ -16,7 +16,7 @@
         "description": "Conception et création d'un outil de reprise de données d'un logiciel vers Metarisc en PHP, avec MariaDB et SQLite. Animation de réunions et de formations au sujet de cet outil avec le Bataillon de marins-pompiers de Marseille.",
         "technologies": [
             "PHP",
-            "MariaDB",
+            "MySQL",
             "Doctrine",
             "SQLite"
         ]
@@ -24,14 +24,16 @@
     {
         "name": "API Metarisc",
         "nature": "Professionnel",
-        "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL. Metarisc est une application SASS destinée à la prévention chez les pompiers",
+        "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL. Metarisc est une application SaaS destinée à la prévention chez les pompiers",
         "url": "https://dev.app.metarisc.fr/",
         "technologies": [
             "PHP",
             "Doctrine",
             "PostgreSQL",
             "OpenAPI",
-            "WFS"
+            "WFS",
+             "Scaleway",
+            "Terraform"
         ]
     },
     {

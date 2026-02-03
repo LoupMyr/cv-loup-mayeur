@@ -29,6 +29,18 @@
       ]
     },
     {
+      "name": "DevOps",
+      "level": "Intermédiaire",
+      "score": "70",
+      "items": [
+        "Docker",
+        "Pipeline CI/CD",
+        "Monitoring Grafana",
+        "Microservices",
+        "Terraform"
+      ]
+    },
+    {
       "name": "Databases",
       "level": "Avancé",
       "score": "90",
@@ -37,17 +49,6 @@
         "PostgreSQL",
         "MariaDB",
         "Event Store"
-      ]
-    },
-    {
-      "name": "Devops",
-      "level": "Intermédiaire",
-      "score": "70",
-      "items": [
-        "Docker",
-        "Git",
-        "Pipeline CI/CD",
-        "Monitoring Grafana"
       ]
     },
     {
@@ -74,20 +75,41 @@
     },
     {
       "name" : "AI",
-      "level": "Junior",
-      "score": "50",
+      "level": "Basique",
+      "score": "40",
       "items": [
         "RAG",
-        "MCP"
+        "MCP",
+        "Langchain"
       ]
     },
     {
       "name": "API Design",
       "level": "Avancé",
-      "score": "90",
+      "score": "80",
       "items": [
         "OpenAPI",
         "API REST"
+      ]
+    },
+    {
+      "name": "Blog Content Management",
+      "level": "Avancé",
+      "score": "90",
+      "items": [
+        "Eleventy",
+        "Liquid",
+        "JSON",
+        "Markdown"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "Avancé",
+      "score": "90",
+      "items": [
+        "Git",
+        "GitHub"
       ]
     }
   ]

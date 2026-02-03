@@ -6,7 +6,14 @@
         "position": "Alternant développeur Fullstack",
         "url": "https://www.sdis62.fr/",
         "startDate": "2024-09-01",
-        "summary": "Durant ma formation d'Expert Informatique et Système d’information"
+        "summary": "Durant ma formation d'Expert Informatique et Système d’information",
+        "description": [
+            "Développement de SireneAI : création d'un RAG (Retrieval-Augmented Generation) avec Python, Langchain, Supabase et MistralAI.",
+            "Développement de l'API Metarisc en PHP / PostgreSQL pour la prévention incendie, application SaaS destinée aux services de secours.",
+            "Développement d'un outil de reprise de données en PHP / MySQL pour la migration vers Metarisc.",
+            "Animation de formations techniques auprès du Bataillon de marins-pompiers de Marseille.",
+            "Management de l'infrastructure Metarisc sur Scaleway via Terraform."
+        ]
     },
     {
         "company": "Service Départemental d'Incendie et de Secours",
@@ -16,7 +23,12 @@
         "url": "https://www.sdis62.fr/",
         "startDate": "2023-09-01",
         "endDate": "2024-09-01",
-        "summary": "Durant ma formation DevOps"
+        "summary": "Durant ma formation DevOps",
+        "description": [
+            "Développement de l'API Metarisc en PHP/PostgreSQL pour la prévention incendie, application SaaS destinée aux services de secours.",
+            "Conception et réalisation du site vitrine Metarisc (metarisc.fr) avec Eleventy, permettant la contribution collaborative via Markdown.",
+            "Création du site de documentation (docs.metarisc.fr) avec gestion de contenu accessible à tous les contributeurs."
+        ]
     },
     {
         "company": "Mairie d'Achicourt",
@@ -26,7 +38,10 @@
         "url": "https://achicourt.fr/",
         "startDate": "2023-01-01",
         "endDate": "2023-02-10",
-        "summary": "Pendant ma 2ème année de BTS SIO"
+        "summary": "Durant le stage de deuxième année de BTS SIO",
+        "description": [
+            "Conception d'une application de gestion de stocks informatique avec Flutter/Dart et API Symfony/MariaDB utilisant API Platform."
+        ]
     },
     {
         "company": "Service Départemental d'Incendie et de Secours",
@@ -36,6 +51,10 @@
         "url": "https://www.sdis62.fr/",
         "startDate": "2022-06-01",
         "endDate": "2022-07-01",
-        "summary": "Pendant ma 1ère année de BTS SIO"
+        "summary": "Durant la première année de BTS SIO",
+        "description": [
+            "Première immersion dans le développement backend au sein d'un service public de sécurité.",
+            "Initiation au monitoring et à l'écoute de métriques via StatsD, Graphite et Grafana."
+        ]
     }
 ]

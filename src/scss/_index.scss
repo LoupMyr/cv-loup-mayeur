@@ -95,3 +95,16 @@ a {
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
+
+.text-light {
+  color: $secondary !important;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.dates {
+  font-size: 0.85rem;
+  color: $secondary !important;
+  font-weight: 400;
+  opacity: 0.8;
+}
