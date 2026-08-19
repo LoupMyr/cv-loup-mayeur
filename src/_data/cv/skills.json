@@ -2,21 +2,19 @@
   {
       "name": "Backend",
       "level": "Avancé",
-      "score": "90",
+      "icon": "bi-server",
       "items": [
         "PHP",
         "Python",
         "Java",
-        "Node.js",
         "Spring Boot",
-        "Express.js",
         "Symfony"
       ]
     },
     {
       "name": "Frontend",
       "level": "Avancé",
-      "score": "90",
+      "icon": "bi-layout-text-window",
       "items": [
         "HTML",
         "CSS / SCSS",
@@ -31,7 +29,7 @@
     {
       "name": "DevOps",
       "level": "Intermédiaire",
-      "score": "70",
+      "icon": "bi-gear-wide-connected",
       "items": [
         "Docker",
         "Pipeline CI/CD",
@@ -43,7 +41,7 @@
     {
       "name": "Databases",
       "level": "Avancé",
-      "score": "90",
+      "icon": "bi-database",
       "items": [
         "SQL",
         "PostgreSQL",
@@ -54,7 +52,7 @@
     {
       "name": "Software Design Architecture",
       "level": "Intermédiaire",
-      "score": "70",
+      "icon": "bi-diagram-3",
       "items": [
         "DDD - Domain Driven Design",
         "CQRS",
@@ -65,7 +63,7 @@
     {
       "name" : "Documentation et Communication",
       "level": "Avancé",
-      "score": "85",
+      "icon": "bi-journal-text",
       "items": [
         "Markdown",
         "GitHub",
@@ -75,8 +73,8 @@
     },
     {
       "name" : "AI",
-      "level": "Basique",
-      "score": "40",
+      "level": "Intermédiaire",
+      "icon": "bi-robot",
       "items": [
         "RAG",
         "MCP",
@@ -86,7 +84,7 @@
     {
       "name": "API Design",
       "level": "Avancé",
-      "score": "80",
+      "icon": "bi-plug",
       "items": [
         "OpenAPI",
         "API REST"
@@ -95,7 +93,7 @@
     {
       "name": "Blog Content Management",
       "level": "Avancé",
-      "score": "90",
+      "icon": "bi-file-earmark-richtext",
       "items": [
         "Eleventy",
         "Liquid",
@@ -106,7 +104,7 @@
     {
       "name": "Version Control",
       "level": "Avancé",
-      "score": "90",
+      "icon": "bi-git",
       "items": [
         "Git",
         "GitHub"

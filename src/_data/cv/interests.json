@@ -1,16 +1,18 @@
 [
   {
     "category": "Sports",
+    "icon": "bi-trophy",
     "items": [
-      "Full Contact",
-      "Musculation"
+      { "name": "Full Contact", "icon": "bi-shield" },
+      { "name": "Musculation", "icon": "bi-heart-pulse" }
     ]
   },
   {
     "category": "Activités",
+    "icon": "bi-stars",
     "items": [
-      "Echecs",
-      "Jeux vidéo"
+      { "name": "Echecs", "icon": "bi-grid-3x3-gap" },
+      { "name": "Jeux vidéo", "icon": "bi-controller" }
     ]
   }
 ]

@@ -58,6 +58,35 @@ $border-color: $surface-light;
   font-size: 0.8rem;
 }
 
+.chip-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 6px 12px;
+  background-color: $surface;
+  border: 1px solid $surface-light;
+  border-radius: 999px;
+  color: $secondary;
+  font-size: 0.85rem;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: $primary;
+    transform: translateY(-2px);
+  }
+
+  i {
+    color: $primary;
+    font-size: 0.9rem;
+  }
+}
+
 // Couleurs personnalisées pour les barres de progression
 .progress-bar.bg-success {
   background-color: $high-score !important;

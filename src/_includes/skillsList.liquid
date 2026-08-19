@@ -1,16 +1,22 @@
-<div class="row">
+<div class="row g-3">
   {% for skill in cv.skills %}
-    <div class="col-lg-6 col-12 mb-3">
-      <div class="skill-item">
-        <div class="d-flex justify-content-between align-items-center mb-1">
-          <span class="skill-name">{{ skill.name }}</span>
-          <span class="skill-level">{{ skill.level }}</span>
+    <div class="col-lg-6 col-12">
+      <div class="skill-card">
+        <div class="skill-card-header">
+          <div class="skill-card-title">
+            {% if skill.icon %}<i class="bi {{ skill.icon }}"></i>{% endif %}
+            <span class="skill-name">{{ skill.name }}</span>
+          </div>
+          {% if skill.level == "Avancé" %}
+            {% assign level_class = "level-high" %}
+          {% elsif skill.level == "Intermédiaire" %}
+            {% assign level_class = "level-mid" %}
+          {% else %}
+            {% assign level_class = "level-low" %}
+          {% endif %}
+          <span class="skill-level-badge {{ level_class }}">{{ skill.level }}</span>
         </div>
-        <div class="skill-progress-bar">
-          {% render 'progressBar'
-            , score: skill.score %}
-        </div>
-        <div class="my-2">
+        <div class="skill-tags">
           {% for item in skill.items %}
             <div class="tag">{{ item }}</div>
           {% endfor %}

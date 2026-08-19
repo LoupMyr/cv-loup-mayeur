@@ -2,7 +2,7 @@
     {
         "name": "SireneAI - RAG MistralAI Legifrance",
         "nature": "Professionnel",
-        "description": "Création d'un RAG en Python avec Langchain et Supabase dans le but d'améliorer la pertinence des réponses de MistralAI au sujet de la prévention incendie.",
+        "description": "Mise en place d'une base de connaissances vectorielle (Supabase) à partir de documents réglementaires (Légifrance, prévention incendie), interrogée via une architecture RAG en Python/Langchain pour fiabiliser les réponses de MistralAI.",
         "technologies": [
             "Python",
             "Langchain",
@@ -13,7 +13,7 @@
     {
         "name": "Outil de reprise de données Metarisc",
         "nature": "Professionnel",
-        "description": "Conception et création d'un outil de reprise de données d'un logiciel vers Metarisc en PHP, avec MariaDB et SQLite. Animation de réunions et de formations au sujet de cet outil avec le Bataillon de marins-pompiers de Marseille.",
+        "description": "Outil de migration en PHP (MariaDB, SQLite) convertissant les données d'un logiciel métier tiers vers le modèle de données Metarisc, avec gestion des correspondances entre schémas hétérogènes. Formation des utilisateurs finaux (Bataillon de marins-pompiers de Marseille) à son fonctionnement.",
         "technologies": [
             "PHP",
             "MySQL",
@@ -24,22 +24,25 @@
     {
         "name": "API Metarisc",
         "nature": "Professionnel",
-        "description": "Participation à la réalisation de l'API Metarisc en PHP et PostgreSQL. Metarisc est une application SaaS destinée à la prévention chez les pompiers",
-        "url": "https://dev.app.metarisc.fr/",
+        "description": "Participation à la conception et au développement de l'API Metarisc, application SaaS de prévention incendie destinée aux services de secours, en structurant le domaine métier selon les principes DDD, CQRS, Event Sourcing et Clean Architecture.",
         "technologies": [
             "PHP",
             "Doctrine",
             "PostgreSQL",
             "OpenAPI",
             "WFS",
-             "Scaleway",
-            "Terraform"
+            "Scaleway",
+            "Terraform",
+            "DDD",
+            "CQRS",
+            "Event Sourcing",
+            "Clean Architecture"
         ]
     },
     {
         "name": "Site vitrine Metarisc",
         "nature": "Professionnel",
-        "description": "Réalisation d'un site vitrine pour Metarisc avec Eleventy avec la possibilité de rédiger des posts en Markdown pour que tout le monde puisse contribuer.",
+        "description": "Conception du site vitrine public de Metarisc (metarisc.fr), avec un espace de blog en Markdown ouvert à la contribution de toute l'équipe pour communiquer sur les évolutions du produit.",
         "url": "https://metarisc.fr/",
         "technologies": [
             "HTML",
@@ -53,7 +56,7 @@
     {
         "name": "Site documentation Metarisc",
         "nature": "Professionnel",
-        "description": "Réalisation d'un site de documentation Metarisc avec Eleventy. Pages de documentation en Markdown pour que leur rédaction soit accessible à tous.",
+        "description": "Mise en place du site de documentation technique et fonctionnelle de Metarisc (docs.metarisc.fr), structuré pour permettre à chaque contributeur de rédiger et maintenir sa documentation en Markdown.",
         "url": "https://docs.metarisc.fr/",
         "technologies": [
             "HTML",
@@ -75,6 +78,16 @@
             "Symfony",
             "MariaDB",
             "API Platform"
+        ]
+    },
+    {
+        "name": "Application de suivi de films et séries",
+        "nature": "Scolaire",
+        "description": "Projet réalisé durant le Bachelor DevOps : application permettant de rechercher des films et séries, de les noter, les commenter et tenir à jour une liste de contenus vus ou à voir.",
+        "technologies": [
+            "Java",
+            "Spring Boot",
+            "Angular"
         ]
     },
     {

@@ -5,29 +5,16 @@
         "location": "62223 Saint-Laurent-Blangy",
         "position": "Alternant développeur Fullstack",
         "url": "https://www.sdis62.fr/",
-        "startDate": "2024-09-01",
-        "summary": "Durant ma formation d'Expert Informatique et Système d’information",
+        "startDate": "2023-09-01",
+        "summary": "Durant mon alternance (Bachelor DevOps puis Mastère Expert Informatique et Système d’information)",
         "description": [
+            "Développement et évolution de l'API Metarisc en PHP / PostgreSQL pour la prévention incendie, application SaaS destinée aux services de secours, en appliquant les principes DDD, CQRS, Event Sourcing et Clean Architecture.",
             "Développement de SireneAI : création d'un RAG (Retrieval-Augmented Generation) avec Python, Langchain, Supabase et MistralAI.",
-            "Développement de l'API Metarisc en PHP / PostgreSQL pour la prévention incendie, application SaaS destinée aux services de secours.",
             "Développement d'un outil de reprise de données en PHP / MySQL pour la migration vers Metarisc.",
+            "Conception et réalisation du site vitrine Metarisc (metarisc.fr) avec Eleventy, permettant la contribution collaborative via Markdown.",
+            "Création du site de documentation (docs.metarisc.fr) avec gestion de contenu accessible à tous les contributeurs.",
             "Animation de formations techniques auprès du Bataillon de marins-pompiers de Marseille.",
             "Management de l'infrastructure Metarisc sur Scaleway via Terraform."
-        ]
-    },
-    {
-        "company": "Service Départemental d'Incendie et de Secours",
-        "préfixeCompany": "au",
-        "location": "62223 Saint-Laurent-Blangy",
-        "position": "Alternant développeur Fullstack",
-        "url": "https://www.sdis62.fr/",
-        "startDate": "2023-09-01",
-        "endDate": "2024-09-01",
-        "summary": "Durant ma formation DevOps",
-        "description": [
-            "Développement de l'API Metarisc en PHP/PostgreSQL pour la prévention incendie, application SaaS destinée aux services de secours.",
-            "Conception et réalisation du site vitrine Metarisc (metarisc.fr) avec Eleventy, permettant la contribution collaborative via Markdown.",
-            "Création du site de documentation (docs.metarisc.fr) avec gestion de contenu accessible à tous les contributeurs."
         ]
     },
     {

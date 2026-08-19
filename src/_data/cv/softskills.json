@@ -1,20 +1,26 @@
 [
     {
-        "name": "Travail en équipe"
-        },
-        {
-        "name": "Capacité d'écoute"
-        },
-        {
-        "name": "Adaptabilité"
-        },
-        {
-        "name": "Sérieux"
-        },
-        {
-        "name": "Curiosité"
-        },
-        {
-        "name": "Autonomie"
-        }
+    "name": "Travail en équipe",
+    "icon": "bi-people"
+    },
+    {
+    "name": "Capacité d'écoute",
+    "icon": "bi-ear"
+    },
+    {
+    "name": "Adaptabilité",
+    "icon": "bi-arrow-repeat"
+    },
+    {
+    "name": "Sérieux",
+    "icon": "bi-patch-check"
+    },
+    {
+    "name": "Curiosité",
+    "icon": "bi-search"
+    },
+    {
+    "name": "Autonomie",
+    "icon": "bi-compass"
+    }
 ]

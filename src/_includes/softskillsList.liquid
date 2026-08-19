@@ -1,5 +1,8 @@
-<div class="softskills-container">
+<div class="chip-card-grid">
   {% for softskill in cv.softskills %}
-    <div class="tag mb-1">{{ softskill.name }}</div>
+    <div class="chip-card">
+      {% if softskill.icon %}<i class="bi {{ softskill.icon }}"></i>{% endif %}
+      <span>{{ softskill.name }}</span>
+    </div>
   {% endfor %}
 </div>
