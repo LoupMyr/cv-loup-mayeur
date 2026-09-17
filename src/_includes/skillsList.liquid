@@ -7,10 +7,12 @@
             {% if skill.icon %}<i class="bi {{ skill.icon }}"></i>{% endif %}
             <span class="skill-name">{{ skill.name }}</span>
           </div>
-          {% if skill.level == "Avancé" %}
-            {% assign level_class = "level-high" %}
-          {% elsif skill.level == "Intermédiaire" %}
-            {% assign level_class = "level-mid" %}
+          {% if skill.level == "Expert" %}
+            {% assign level_class = "level-expert" %}
+          {% elsif skill.level == "Avancé" %}
+            {% assign level_class = "level-advanced" %}
+          {% elsif skill.level == "Confirmé" %}
+            {% assign level_class = "level_confirmed" %}
           {% else %}
             {% assign level_class = "level-low" %}
           {% endif %}

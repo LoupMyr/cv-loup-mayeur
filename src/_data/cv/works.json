@@ -3,19 +3,22 @@
         "company": "Service Départemental d'Incendie et de Secours",
         "préfixeCompany": "au",
         "location": "62223 Saint-Laurent-Blangy",
-        "position": "Alternant développeur Fullstack",
+        "position": "Alternant développeur DevSecOps",
         "url": "https://www.sdis62.fr/",
         "startDate": "2023-09-01",
         "summary": "Durant mon alternance (Bachelor DevOps Concepteur développeur d’applications puis Mastère Expert Informatique et Système d’information)",
         "description": [
             "Développement et évolution de l'API Metarisc en PHP / PostgreSQL pour la prévention incendie, application SaaS destinée aux services de secours, en appliquant les principes DDD, CQRS, Event Sourcing et Clean Architecture.",
-            "Développement de SireneAI : création d'un RAG (Retrieval-Augmented Generation) avec Python, Langchain, Supabase et MistralAI.",
-            "Gestion de l'infrastructure Metarisc sur Scaleway via Terraform (infrastructure as code)",
-            "Analyse et arbitrage des limites d'une architecture agentique : échecs de filtrage, temps de traitement, contraintes FinOps liées au coût d'inférence",
-            "Développement d'un outil de reprise de données en PHP / MySQL pour la migration vers Metarisc.",
-            "Conception et réalisation du site vitrine Metarisc (metarisc.fr) avec Eleventy, permettant la contribution collaborative via Markdown.",
-            "Création du site de documentation (docs.metarisc.fr) avec gestion de contenu accessible à tous les contributeurs.",
-            "Animation de formations techniques auprès du Bataillon de marins-pompiers de Marseille."
+            "Conception et réalisation d'un RAG en Python au sujet de la prévention incendie avec LangChain.",
+            "Analyse et arbitrage des limites d'une architecture agentique : échecs de filtrage, temps de traitement, contraintes FinOps liées au coût d'inférence.",
+            "Conception et réalisation d'un outil ETL en PHP conteneurisé avec Docker.",
+            "Animation de formations techniques auprès du Bataillon de marins-pompiers de Marseille.",
+            "Conception et réalisation du site vitrine Metarisc (metarisc.fr) et de documentation (docs.metarisc.fr) avec Eleventy, permettant la contribution collaborative via Markdown.",
+            "Gestion de l'infrastructure Metarisc sur Scaleway via Terraform (infrastructure as code).",
+            "Pipeline CI/CD entièrement automatisée autour des Github Actions.",
+            "Intégration de vérifications de sécurité (SAST) dans le pipeline CI/CD.",
+            "Architecture Event Driven avec un Event Store pour la gestion des événements.",
+            "Architecture Serverless avec Scaleway Container."
         ]
     },
     {

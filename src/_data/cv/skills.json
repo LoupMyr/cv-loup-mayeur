@@ -1,14 +1,16 @@
 [
   {
       "name": "Backend",
-      "level": "Avancé",
+      "level": "Expert",
       "icon": "bi-server",
       "items": [
         "PHP",
-        "Python",
+        "Symfony",
         "Java",
-        "Spring Boot",
-        "Symfony"
+        "Spring",
+        "Python",
+        "FastAPI",
+        "Node.JS"
       ]
     },
     {
@@ -18,41 +20,71 @@
       "items": [
         "HTML",
         "CSS / SCSS",
-        "Dart / Flutter",
         "Angular",
-        "Javascript",
+        "Javascript / Typescript",
         "Bootstrap",
-        "Eleventy",
-        "Liquid"
+        "Dart",
+        "Flutter",
+        "React Native"
       ]
     },
     {
-      "name": "DevOps",
-      "level": "Intermédiaire",
+      "name": "DevSecOps",
+      "level": "Avancé",
       "icon": "bi-gear-wide-connected",
       "items": [
-        "Docker",
-        "Pipeline CI/CD",
+        "WSL",
+        "Workflow et Pipeline CI/CD",
+        "Secret Scanning",
+        "Tests Shift Left and Shift Right",
+        "SAST / DAST",
         "Monitoring Grafana",
-        "Microservices",
-        "Terraform"
+        "Conteneurs et microservices",
+        "Terraform",
+        "Scaleway"
       ]
     },
     {
       "name": "Databases",
-      "level": "Avancé",
+      "level": "Expert",
       "icon": "bi-database",
       "items": [
-        "SQL",
-        "PostgreSQL",
+        "MySQL",
         "MariaDB",
+        "PostgreSQL",
+        "SQLite",
+        "NoSQL",
+        "MongoDB",
         "Event Store"
       ]
     },
     {
-      "name": "Software Design Architecture",
-      "level": "Intermédiaire",
+      "name": "Méthodes",
+      "level": "Avancé",
       "icon": "bi-diagram-3",
+      "items": [
+        "FinOps",
+        "Merise",
+        "UML",
+        "Kanban",
+        "Itérative",
+        "Agile"
+      ]
+    },
+    {
+      "name": "Container et gestion de Container",
+      "level": "Expert",
+      "icon": "bi-box-seam",
+      "items": [
+        "Docker",
+        "Portainer",
+        "LazyDocker"
+      ]
+    },
+    {
+      "name": "Software Design Architecture",
+      "level": "Confirmé",
+      "icon": "bi-diagram-2",
       "items": [
         "DDD - Domain Driven Design",
         "CQRS",
@@ -73,12 +105,14 @@
     },
     {
       "name" : "AI",
-      "level": "Intermédiaire",
+      "level": "Confirmé",
       "icon": "bi-robot",
       "items": [
         "RAG",
         "MCP",
-        "Langchain"
+        "Architecture agentique",
+        "Langchain",
+        "Skills"
       ]
     },
     {
@@ -87,23 +121,23 @@
       "icon": "bi-plug",
       "items": [
         "OpenAPI",
-        "API REST"
+        "API REST",
+        "REST(ful) API"
       ]
     },
     {
-      "name": "Blog Content Management",
+      "name": "Sécurité & Authentification",
       "level": "Avancé",
-      "icon": "bi-file-earmark-richtext",
+      "icon": "bi-shield-lock",
       "items": [
-        "Eleventy",
-        "Liquid",
-        "JSON",
-        "Markdown"
+        "OAuth2",
+        "OIDC",
+        "JWT"
       ]
     },
     {
       "name": "Version Control",
-      "level": "Avancé",
+      "level": "Expert",
       "icon": "bi-git",
       "items": [
         "Git",

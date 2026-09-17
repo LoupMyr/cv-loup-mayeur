@@ -43,16 +43,22 @@
     letter-spacing: 0.03em;
     white-space: nowrap;
 
-    &.level-high {
-        color: $high-score;
-        background-color: rgba($high-score, 0.15);
-        border: 1px solid rgba($high-score, 0.4);
+    &.level-expert {
+        color: $expert-score;
+        background-color: rgba($expert-score, 0.15);
+        border: 1px solid rgba($expert-score, 0.4);
     }
 
-    &.level-mid {
-        color: $mid-score;
-        background-color: rgba($mid-score, 0.15);
-        border: 1px solid rgba($mid-score, 0.4);
+    &.level-advanced {
+        color: $advanced-score;
+        background-color: rgba($advanced-score, 0.15);
+        border: 1px solid rgba($advanced-score, 0.4);
+    }
+
+    &.level_confirmed {
+        color: $confirmed-score;
+        background-color: rgba($confirmed-score, 0.15);
+        border: 1px solid rgba($confirmed-score, 0.4);
     }
 
     &.level-low {

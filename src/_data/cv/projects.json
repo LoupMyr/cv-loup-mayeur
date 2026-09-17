@@ -1,4 +1,25 @@
 [
+        {
+        "name": "API Metarisc",
+        "nature": "Professionnel",
+        "description": "Développement d'une Plateforme Cloud pour la gestion des risques dans un SDIS",
+        "technologies": [
+            "PHP",
+            "Doctrine",
+            "PostgreSQL",
+            "OpenAPI",
+            "WFS",
+            "Scaleway",
+            "Terraform",
+            "DDD",
+            "CQRS",
+            "Event Sourcing",
+            "Clean Architecture",
+            "Terraform",
+            "Cloud",
+            "GitHub Actions"
+        ]
+    },
     {
         "name": "SireneAI - RAG MistralAI Legifrance",
         "nature": "Professionnel",
@@ -19,24 +40,6 @@
             "MySQL",
             "Doctrine",
             "SQLite"
-        ]
-    },
-    {
-        "name": "API Metarisc",
-        "nature": "Professionnel",
-        "description": "Participation à la conception et au développement de l'API Metarisc, application SaaS de prévention incendie destinée aux services de secours, en structurant le domaine métier selon les principes DDD, CQRS, Event Sourcing et Clean Architecture.",
-        "technologies": [
-            "PHP",
-            "Doctrine",
-            "PostgreSQL",
-            "OpenAPI",
-            "WFS",
-            "Scaleway",
-            "Terraform",
-            "DDD",
-            "CQRS",
-            "Event Sourcing",
-            "Clean Architecture"
         ]
     },
     {
