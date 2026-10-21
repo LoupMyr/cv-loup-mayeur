@@ -3,22 +3,21 @@
         "company": "Service Départemental d'Incendie et de Secours",
         "préfixeCompany": "au",
         "location": "62223 Saint-Laurent-Blangy",
-        "position": "Alternant développeur DevSecOps",
+        "position": "Alternant Backend & IA Software Engineer",
         "url": "https://www.sdis62.fr/",
         "startDate": "2023-09-01",
-        "summary": "Durant mon alternance (Bachelor DevOps Concepteur développeur d’applications puis Mastère Expert Informatique et Système d’information)",
+        "summary": "Alternance réalisée dans le cadre du Bachelor DevOps Concepteur développeur d’applications, puis du titre Expert en informatique et système d’information, au sein de l’équipe produit de Metarisc, plateforme SaaS nationale de prévention incendie destinée aux SDIS. Les services de prévention des SDIS traitent leurs dossiers réglementaires via des outils historiques rigides et difficiles à faire évoluer. Face à la complexité des règles métier et à la nécessité d'une traçabilité stricte, l'objectif était de déployer une plateforme cloud nationale unifiée, garantissant la reprise des données sans perte. Le développement s’inscrit dans une démarche agile, avec des livraisons itératives en lien direct avec les utilisateurs finaux",
         "description": [
-            "Développement et évolution de l'API Metarisc en PHP / PostgreSQL pour la prévention incendie, application SaaS destinée aux services de secours, en appliquant les principes DDD, CQRS, Event Sourcing et Clean Architecture.",
-            "Conception et réalisation d'un RAG en Python au sujet de la prévention incendie avec LangChain.",
+            "Conception d'une API REST en approche API first (contrat OpenAPI rédigé avant le code, avec validation automatique des requêtes et réponses), pour que la plateforme Metarisc soit consommable par plusieurs clients et favorise l'interopérabilité.",
+            "Modélisation du domaine métier en Domain Driven Design pour régir l'application autour des règles métier complexes, avec une Clean Architecture isolant ces règles de l'infrastructure, et un CQRS / Event Sourcing garantissant la traçabilité complète des décisions.",
+            "Conception et réalisation d'un RAG en Python (LangChain, MistralAI, pgvector) sur la réglementation de prévention incendie, à partir d'une base vectorielle constituée de documents réglementaires (Légifrance, textes de prévention incendie), pour réduire le temps de recherche des préventionnistes et fiabiliser les réponses du LLM.",
             "Analyse et arbitrage des limites d'une architecture agentique : échecs de filtrage, temps de traitement, contraintes FinOps liées au coût d'inférence.",
-            "Conception et réalisation d'un outil ETL en PHP conteneurisé avec Docker.",
-            "Animation de formations techniques auprès du Bataillon de marins-pompiers de Marseille.",
-            "Conception et réalisation du site vitrine Metarisc (metarisc.fr) et de documentation (docs.metarisc.fr) avec Eleventy, permettant la contribution collaborative via Markdown.",
-            "Gestion de l'infrastructure Metarisc sur Scaleway via Terraform (infrastructure as code).",
-            "Pipeline CI/CD entièrement automatisée autour des Github Actions.",
-            "Intégration de vérifications de sécurité (SAST) dans le pipeline CI/CD.",
-            "Architecture Event Driven avec un Event Store pour la gestion des événements.",
-            "Architecture Serverless avec Scaleway Container."
+            "Conception et réalisation d'un outil ETL en PHP conteneurisé avec Docker, pour migrer les données du système legacy vers Metarisc sans perte, puis animation de formations techniques auprès des utilisateurs finaux, notamment le Bataillon de marins-pompiers de Marseille, pour sécuriser l'adoption de l'outil et de la migration.",
+            "Gestion de l'infrastructure Metarisc sur Scaleway via Terraform (infrastructure as code), avec une architecture Serverless et Event Driven sur Scaleway Container, appuyée sur un Event Store pour la gestion des événements.",
+            "Pipeline CI/CD entièrement automatisée avec GitHub Actions, intégrant des vérifications de sécurité (SAST).",
+            "Conception et réalisation du site vitrine Metarisc (metarisc.fr) et de documentation (docs.metarisc.fr) avec Eleventy, permettant la contribution collaborative en Markdown, y compris pour les profils non développeurs.",
+            "Travail en méthode agile au sein d'une équipe technique répartie entre le Pas-de-Calais et Marseille : participation aux cérémonies (planification, daily, rétrospective), gestion du backlog et suivi Kanban pour garantir visibilité et transparence sur l'avancement du projet.",
+            "Recueil des retours des utilisateurs de terrain pour prioriser les évolutions du produit."
         ]
     },
     {
@@ -29,23 +28,28 @@
         "url": "https://achicourt.fr/",
         "startDate": "2023-01-01",
         "endDate": "2023-02-10",
-        "summary": "Durant le stage de deuxième année de BTS SIO",
+        "summary": "Stage de 6 semaines réalisé durant la deuxième année de BTS SIO. La mairie gérait son parc de matériel informatique entièrement à la main : il lui était difficile de connaître son inventaire, de retrouver les informations d'un équipement ou de suivre l'évolution des achats. Après avoir recueilli l'expression des besoins auprès du service, conception d'une API centralisant les données, exploitée par une application Flutter Windows.",
         "description": [
-            "Conception d'une application de gestion de stocks informatique avec Flutter/Dart et API Symfony/MariaDB utilisant API Platform."
+            "Recueil de l'expression des besoins auprès du service informatique et traduction en fonctionnalités d'une API.",
+            "Réalisation d'une API avec Symfony et API Platform pour centraliser les données du parc informatique et les exposer à l'application : gestion du matériel (ajout, consultation, recherche) et authentification des utilisateurs par rôles (inscription, connexion).",
+            "Réalisation d'une application Windows de gestion de stock avec Flutter pour remplacer le suivi manuel : recherche et ajout de matériel, génération de QR codes permettant de retrouver les informations d'un équipement depuis un téléphone, graphiques des achats de matériel par année et export d'une fiche de matériel en PDF."
         ]
     },
     {
         "company": "Service Départemental d'Incendie et de Secours",
         "préfixeCompany": "au",
         "location": "62223 Saint-Laurent-Blangy",
-        "position": "Stagiaire développeur Backend",
+        "position": "Stagiaire développeur Backend, Monitoring API",
         "url": "https://www.sdis62.fr/",
         "startDate": "2022-06-01",
         "endDate": "2022-07-01",
-        "summary": "Durant la première année de BTS SIO",
+        "summary": "Stage de 5 semaines durant la première année de BTS SIO, première immersion dans le développement backend au sein d'un service public de sécurité. L'objectif était de découvrir la supervision en mettant en place une plateforme qui suit l'état de santé d'une application Symfony, avec une montée en compétences en autonomie sur Docker, le monitoring et la conception d'une API en PHP.",
         "description": [
-            "Première immersion dans le développement backend au sein d'un service public de sécurité.",
-            "Initiation au monitoring et à l'écoute de métriques via StatsD, Graphite et Grafana."
+            "Montée en compétences en autonomie sur Docker, Grafana et la conception d'API en PHP.",
+            "Réalisation d'une plateforme de supervision de l'état de santé d'une application Symfony, conteneurisée avec Docker.",
+            "Développement d'une page Symfony remontant l'état de santé de l'application et permettant de tester l'envoi de métriques vers Graphite, avec collecte et stockage des métriques.",
+            "Exploitation des données depuis Grafana et restitution sur un dashboard de supervision.",
+            "Participation en visioconférence à une réunion avec le Bataillon de marins-pompiers de Marseille."
         ]
     }
 ]
